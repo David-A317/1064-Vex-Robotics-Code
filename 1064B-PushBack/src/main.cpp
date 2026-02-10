@@ -307,7 +307,7 @@ void usercontrol(void) {
             intakeBottom.spin(fwd, 12, volt);
             intakeTop.spin(reverse, 12, volt);
         }
-        else if(Controller.ButtonR1.pressing() & (intakeLevel == 2)){
+        else if(Controller.ButtonR2.pressing() & (intakeLevel == 2)){
             intakeBottom.spin(reverse, 12, volt);
             intakeTop.spin(fwd, 12, volt);
         }
